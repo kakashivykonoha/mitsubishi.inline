@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+}
+.biglogo
+{
+display: flex;}
+.logo 
+{height: 80px;
+width: 100px;
+}
+.dealer{padding-top:20px;}
+.menu-bar
+{background-color: black;
+height: 105 px;
+max-width: 100%;
+color:white;
+
+}
+.menu-bar a 
+
+{color:inherit;
+text-decoration: none;
+font-size: 15px
+}
+
+.rightmenu {padding-top: 10px;
+    margin-left: 360px;
+    background-color: red;
+    height: 40px;
+ 
+     max-width: 100%;
+    list-style: none; /* Loại bỏ dấu gạch ngang */
+    display: flex; /* Sử dụng flexbox để dễ dàng căn chỉnh */
+    gap: 80px; /* Khoảng cách giữa các mục trong rightmenu */
+position: relative;
+bottom: 50px;
+flex-wrap: wrap;}
+.rightmenu li a {text-decoration: none;
+    font-size: 18px}
+.sub-menu {
+ display:none;
+ color:white;
+
+}
+.rightmenu li:hover {background-color:gainsboro;color:red}
+.tab_btm:hover {background-color:green;color:white};
+
+.tabbox {display: flex;padding-top: 100px;justify-content: space-between;}
+.bank {
+    padding-top: 20px;
+}
+.content-box{padding-top: 10px;display: flex; flex-wrap: wrap; /* Cho phép các phần tử con chuyển dòng khi không đủ không gian */}
+.slider{position:relative;
+    width: 100%;
+overflow:hidden;
+}
+.list
+{display:flex}
+.item{flex: 0 0 auto;
+width: 100%;}

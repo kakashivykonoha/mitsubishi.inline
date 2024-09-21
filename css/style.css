@@ -1,0 +1,53 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* tất cả phần tử */
+
+.header 
+{
+   position: fixed;
+   top: 0;
+   left:0;
+   right:0;
+   justify-content:space-between;
+   align-items:center;
+   background: black;
+   z-index:1000;
+
+}
+/* position :relative*/
+/* Logo Styles */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.logo span {
+    font-size: 0.8rem;
+    color: silver;
+    margin-left: 0.5rem;
+}
+#slider-container {margin-top: 46px;
+    padding-top:50%;
+}
+#slider-container {
+    position: relative;
+    max-width: 100%;
+    display: flex; /* Loại bỏ dấu chấm dư thừa */
+}
+
+.item-slider img {
+    width: 50%;
+    height: 100%;
+  }
+
+  /* tạo form*/
+.rightmenu li:hover {background-color:yellow;}
+.rightmenu li:hover .sub-menu {
+    display: block; /* Hiển thị menu con khi hover */
+}
