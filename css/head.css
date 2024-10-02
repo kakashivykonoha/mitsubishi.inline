@@ -61,3 +61,16 @@ overflow:hidden;
 {display:flex}
 .item{flex: 0 0 auto;
 width: 100%;}
+/*dropdown button */
+.dropbtn {
+    background-color: #04AA6d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border:none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
