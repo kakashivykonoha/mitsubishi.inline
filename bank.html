@@ -50,11 +50,15 @@
     <h2>TP bank</h2>
         <p>Lãi suất ưu đãi 7.8%/năm</p>
         <form id="Form TP bank">
-            <label for="loanAmount">Số tiền vay (đồng)</label>
+            <label for="loanAmount">Số tiền vay (đồng)</label><br>
             <input type="number" id="loanAmount" required><br><br>
-            <label for="loanTerm">Thời gian vay (năm)</label>
-            <!--tối đa 8 năm-->
-            <input type="number" id="loanTerm" required><br><br>
+            <select name="thời gian vay" id="duration-vpb">
+                <option value="36">36 tháng</option>
+                <option value="48">48 tháng</option>
+                <option value="60">60 tháng</option>
+                <option value="72">72 tháng</option>
+                <option value="84">84 tháng</option>
+            </select><br><br>
             <button type="submit">Chạy bảng</button>
             <!--cái này nên khi nào điền đúng giá chị thì chạy-->
         </form>
@@ -64,11 +68,17 @@
 <h2>VP bank</h2>
 <p>Lãi suất ưu đãi 7.4%/năm</p>
 <form id="Form TP bank">
-    <label for="loanAmount">Số tiền vay (đồng)</label>
+    <label for="loanAmount">Số tiền vay (đồng)</label><br>
     <input type="number" id="loanAmount" required><br><br>
-    <label for="loanTerm">Thời gian vay (năm)</label>
+    <select name="thời gian vay" id="duration-tpb">
+        <option value="36">36 tháng</option>
+        <option value="48">48 tháng</option>
+        <option value="60">60 tháng</option>
+        <option value="72">72 tháng</option>
+        <option value="84">84 tháng</option>
+    </select><br><br>
     <!--tối đa 8 năm-->
-    <input type="number" id="loanTerm" required><br><br>
+  
     <button type="submit">Chạy bảng</button>
     <!--cái này nên khi nào điền đúng giá chị thì chạy-->
 </form>    
@@ -78,13 +88,15 @@
 <img src="bank photo/shbank.png" style="height: 100px;width: 350px;">
 <p>Lãi suất vay cố định 30 tháng 8.2% & 6 tháng đầu 6.2%</p>
     <form id="Form Shihhah">
-        <label for="loanAmount">Số tiền vay (đồng)</label>
+        <label for="loanAmount">Số tiền vay (đồng)</label><br>
         <input type="number" id="loanAmount" required><br><br>
-        <label for="loanTerm">Thời gian vay (năm)</label>
-        <!--tối đa 8 năm-->
-        <input type="number" id="loanTerm" required><br><br>
-        <button type="submit">Chạy bảng</button>
-        <!--cái này nên khi nào điền đúng giá chị thì chạy-->
+        <select name="thời gian vay" id="duration-tpb">
+            <option value="36">36 tháng</option>
+            <option value="48">48 tháng</option>
+            <option value="60">60 tháng</option>
+            <option value="72">72 tháng</option>
+            <option value="84">84 tháng</option>
+        </select><br><br>
     </form>
     </div>
 </div>
